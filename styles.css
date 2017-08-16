@@ -28,6 +28,8 @@ h1 {
       -moz-transition: all 100ms ease;
       -webkit-transition: all 100ms ease;
       -o-transition: all 100ms ease;
+      margin-left: 20%;
+      margin-top: 8%
   }
 
   .button:hover {
@@ -38,6 +40,43 @@ h1 {
   }
 
   .button:active {
+      box-shadow: 0 0 10px 4px #111, inset 0 0px 10px #ddd;
+      -moz-box-shadow: 0 0 10px 4px #111, inset 0 0px 10px #ddd;
+      -webkit-box-shadow: 0 0 20px 4px #111, inset 0 5px 10px #ddd;
+      -o-box-shadow: 0 0 20px 4px #111, inset 0 5px 10px #ddd;
+      -moz-transform: scale(.98);
+      -webkit-transform: scale(.98);
+      -o-transform: scale(.98);
+      transform: scale(.98);
+  }
+
+  .button2 {
+      width: 200px;
+      height: 200px;
+      background-color: darkgrey;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 20px 4px #111, inset 0 5px 10px #ddd;
+      -moz-box-shadow: 0 0 20px 4px #111, inset 0 5px 10px #ddd;
+      -webkit-box-shadow: 0 0 20px 4px #111, inset 0 5px 10px #ddd;
+      -o-box-shadow: 0 0 20px 4px #111, inset 0 5px 10px #ddd;
+      transition: all 100ms ease;
+      -moz-transition: all 100ms ease;
+      -webkit-transition: all 100ms ease;
+      -o-transition: all 100ms ease;
+      margin-left: 40%;
+      margin-top: -15.5%
+  }
+
+  .button2:hover {
+      -moz-transform: translate(0, -3px);
+      -webkit-transform: translate(0, -3px);
+      -o-transform: translate(0, -3px);
+      transform: translate(0, -3px);
+  }
+
+  .button2:active {
       box-shadow: 0 0 10px 4px #111, inset 0 0px 10px #ddd;
       -moz-box-shadow: 0 0 10px 4px #111, inset 0 0px 10px #ddd;
       -webkit-box-shadow: 0 0 20px 4px #111, inset 0 5px 10px #ddd;
