@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: :0;
+}
+body {
+  background-image: url("");
+}
 h1 {
   color: royalblue;
   font-size: 75px;
   font-family: "Lucida Handwriting";
+  margin: 40px;
+}
+.Kreis {
+  shape
 }
