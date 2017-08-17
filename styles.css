@@ -150,3 +150,28 @@ h1 {
    font-size: 30px;
    color: lightgrey;
  }
+ p {
+   color: #4a5e7c;
+   font-size: 18px;
+   font-family: "Lucida Handwriting";
+ }
+.box {
+  color: #4a5e7c;
+  margin: 10px 20%;
+  font-size: 18px;
+  background-color: rgba(255,255,255,0.7);
+  font-family: "Lucida Handwriting";
+}
+.box2 {
+  color: #4a5e7c;
+  margin: 10px 20%;
+  font-size: 18px;
+  background-color: rgba(255,255,255,0.7);
+  font-family: "Lucida Handwriting";
+}
+h5 {
+  color: #4a5e7c;
+  margin: 30px 20%;
+  font-size: 30px;
+    font-family: "Lucida Handwriting";
+}
