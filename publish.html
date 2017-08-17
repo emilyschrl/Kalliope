@@ -3,7 +3,7 @@
 <html>
 
  <head>
-   <title>Kalliope/about</title>
+   <title>Kalliope/contact</title>
    <link href="css/bootstrap.css" rel="stylesheet">
    <link href="css/bootstrap-theme.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,9 +28,9 @@
 
     <ul class="nav navbar-nav">
       <li><a href="index.html">Home</a></li>
-      <li class="active"><a href="ueber_uns.html">About</a></li>
+      <li><a href="ueber_uns.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="publish.html">Publish</a></li>
+      <li class="active"><a href="publish.html">Publish</a></li>
     </ul>
   </div>
   </div>
@@ -39,22 +39,22 @@
      <h1>Kalliope</h1>
     </div>
  </body>
-<main>
-  <h5>About us</h5>
-   <div class="box">
-   <p>
 
-    Kalliope was created to host a platform and webpages for artists.
-    People want to express themselves and need
-    a space to easily publish and advertise their work.
-    No matter if you write prose, express yourself in poetry or
-    handcraft any kind of artwork - Kalliope is there to support the artist.
-  </p><p>
-    Kalliope is an outcome of the Vodafone Coding Girls Camp 2017 and
-    the idea of the two young entrepreneurs
-    Lynn Strakeljahn and Emily Scheuerle, both aged 15 that share a passion
-     for art.
-  </p>
- </div>
+  <h6>Publish something!<h6>
+<main>
+  <form id="kontaktformular" name="kontaktformular" action="">
+<div class="nickname">
+  <label for="absender">Your Nickname</label>
+  <input type="text" id="absender" name="absender" />
+</div>
+<div class="nachricht">
+  <label for="nachricht">Write something! </label>
+  <textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea>
+</div>
+<div class="senden">
+  <input type="submit" value="Add something!" />
+<div class="senden">
+  <input type="submit" value="Send" />
+</div>
 </main>
 </html>
