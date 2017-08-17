@@ -67,7 +67,7 @@ h1 {
       -webkit-transition: all 100ms ease;
       -o-transition: all 100ms ease;
       margin-left: 40%;
-      margin-top: -15.5%;
+      margin-top: -17%;
   }
 
   .button2:hover {
@@ -127,3 +127,26 @@ h1 {
       -o-transform: scale(.98);
       transform: scale(.98);
   }
+  h2 {
+     margin-left: -18%;
+     padding: 80px;
+     font-family: "Lucida Handwriting";
+     font-size: 30px;
+     color: lightgrey;
+   }
+   h3 {
+     margin-left: -26%;
+     padding: 80px;
+
+     font-family: "Lucida Handwriting";
+     font-size: 30px;
+     color: lightgrey;
+   }
+ h4 {
+   margin: -16%;
+   padding: 80px;
+
+   font-family: "Lucida Handwriting";
+   font-size: 30px;
+   color: lightgrey;
+ }
